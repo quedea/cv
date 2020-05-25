@@ -1,0 +1,160 @@
+/******************TAG SELECTORS******************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 3.125rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+
+
+/********************CLASS SELECTORS********************/
+
+.top-container {
+  background-color: #ecfbfc;
+  position: relative;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 23.125rem;
+  top: 3.125rem;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 23.125rem;
+  bottom: 20rem;
+}
+
+.code-img {
+  width: 20%;
+  float: left;
+  margin-right: 1.875rem;
+  padding-bottom: 2.812rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.skill-1 {
+  margin-bottom: 1.25rem;
+  font-size: 1.562rem;
+  color: #66BFBF;
+  margin-top: 0;
+}
+
+.skill-1-description {
+  margin-top: 0;
+}
+
+.web-development {
+  padding-top: 0.875rem;
+}
+
+.my-image {
+  margin-top: 6.25rem;
+}
+
+.hello {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.my-description-1 {
+  padding-bottom: 2.812rem;
+  margin-bottom: 0;
+}
+
+.hr-1 {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-top-width: 0.625rem;
+  border-color: #EAF6F6;
+  margin: 0 auto;
+}
+
+.hr-2 {
+  clear: left;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-top-width: 0.625rem;
+  border-color: #EAF6F6;
+  margin: 0 auto;
+}
+
+.myButton {
+	background-color:#66bfbb;
+	border-radius:1.875rem;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size: 1.312rem;
+	padding:0.875rem 1.25rem;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#3aa1a1;
+}
+.myButton:active {
+	position:relative;
+	top:0.062rem;
+}
+
+.footer {
+  margin-top: 4.375rem;
+  height: 9.375rem;
+  width: 100%;
+  background-color: #66bfbb;
+}
+
+.Copyright {
+  padding-top: 4.687rem;
+  color: white;
+}
+
+
+
+/********************ID SELECTORS*************************/
+
+ #My-Name {
+   padding-top: 9.375rem;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+
+ #my-description {
+   margin-top: 0;
+   font-size: 1.562rem;
+   color: #66BFBF;
+}
+
+#my-skills {
+  padding-top: 4.375rem;
+  margin: 0 auto 4.375rem;
+}
